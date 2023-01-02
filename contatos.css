@@ -1,0 +1,115 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img-banner{
+    width: 100%;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.div-cabecalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C45CE1
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 23px;
+    margin: 10px 0;
+}
+
+.input-padrao{
+    display: block;
+    padding: 10px 25px;
+    margin: 0 0 20px;
+    width: 50%;
+}
+
+.selector {
+    margin-top: 20px;
+}
+
+.checkbox{
+    margin-top: 20px;
+}
+
+.btn-enviar{
+    width: 35%;
+    background: orange;
+    padding: 15px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.btn-enviar:hover {
+    background: red;
+    transition: 0.5s all;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+table {
+    margin: 20px 40px;
+}
+
+table th{
+    background-color: #BBBBBB;
+}
+
+table td, th{
+    border: 2px solid #000000;
+    padding: 8px 8px;
+}
+
+footer {
+    text-align: center;
+    background: url("https://static.vecteezy.com/ti/fotos-gratis/p2/4794772-couro-preto-fundo-escuro-texturizado-close-up-detalhado-grunge-couro-macro-na-superficie-luxuosa-pergaminho-gratis-foto.jpg");
+    padding: 40px 20px;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+    margin-top: 15px;
+}

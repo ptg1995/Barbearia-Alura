@@ -1,0 +1,95 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.div-cabecalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C45CE1
+}
+
+.produtos {
+  width: 940px;
+  margin: 0 auto; 
+  padding: 50px 0; 
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 10px;
+    height: 400px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 7%;
+}
+
+.produtos li:hover{
+    border-color: #C45CE1;
+}
+
+.produtos li:active{
+    border-color: green;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* .produto-descricao {
+
+} */
+
+.produto-preco {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("https://static.vecteezy.com/ti/fotos-gratis/p2/4794772-couro-preto-fundo-escuro-texturizado-close-up-detalhado-grunge-couro-macro-na-superficie-luxuosa-pergaminho-gratis-foto.jpg");
+    padding: 40px 20px;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+    margin-top: 15px;
+}
